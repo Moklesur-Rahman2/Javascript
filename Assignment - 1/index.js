@@ -173,10 +173,7 @@ console.log(sixHundred3.fill(10))
 // You just initialize each serial number for each data in an Array
 // hints: Use Array Reference
 
-const information = ['Rakib', 'Mahin', 'Thor', 'Chris Hemsworth' ]
-
-
-
+let information = ['Rakib', 'Mahin', 'Thor', 'Chris Hemsworth' ]
 
 
 

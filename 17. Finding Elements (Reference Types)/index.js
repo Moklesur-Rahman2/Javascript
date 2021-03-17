@@ -1,76 +1,17 @@
-// const Doctor = [
-//     {Name: 'rakib', age: 60},
-//     {Name: 'jakib', age: 46},
-//     {Name: 'kim', age: 57},
-// ]
 
-
-
-// let doc = Doctor.findIndex( (doctor) => {
-//  return doctor.Name === 'kim';
-// });
-
-// console.log(doc)
-
-
-let students = [
-    {Name: 'Akib', Age: 18},
-    {Name: 'Babul', Age: 22},
-    {Name: 'Choton', Age: 24}
+const Students = [
+    {Name: 'Akib', Age: 30},
+    {Name: 'Babul', Age: 40},
+    {Name: 'Chinmoy', Age: 50}
 ]
 
-console.log(students.fi((student) => {
-    return student
-}))
+let student = Students.findIndex(function(Students){
+    return Students.Name === "Babul"
+})
+console.log(student)
 
-// function myFunction()
+// FAQ
 
-// let myFunction = () =>{
+//1// if i want to see Name and Age together what i will do
 
-// }
-
-// let myyFunction = function(){
-
-// }
-
-
-// normal function 
-function myFunction(){
-
-}
-
-
-let myFunction = () => {
-
-}
-
-let myFunction = function(){
-
-}
-
-
-function myFuntion(){
-
-}
-
-
-let myFunction = () => {
-
-}
-
-
-let myFunction = function(){
-
-}
-
-function myFunction(){
-
-}
-
-let myFunction = () => {
-
-}
-
-let myFunction = function(){
-    
-}
+//2// Now after return Students.Name its comeing the index number. But i want to return index number and then it will show the student date
