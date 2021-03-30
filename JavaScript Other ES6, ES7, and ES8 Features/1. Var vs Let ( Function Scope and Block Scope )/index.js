@@ -1,14 +1,25 @@
 
+
+// var = function scope
+
 function varVsLet(){
-    for(i = 0; i < 5; i++){
-        let condition = true
-        if(condition == true){
-            console.log('Hello world')
-        }
+    for(var i = 0; i < 5; i++){
+        console.log(i)
     }
+    
+}
+varVsLet()
+
+// let, const = block scope
+
+function varVsLet1(){
+    for(let i = 0; i < 5; i++){
+        console.log(i)
+    }
+    console.log(i)
 }
 
-varVsLet()
+varVsLet1()
 
 
 
