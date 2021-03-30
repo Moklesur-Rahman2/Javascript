@@ -1,23 +1,14 @@
-// Var vs Let
 
-
-
-function checker(){
-    for(let index = 0; index <= 3; index++){
-		// console.log(flag);
-        // console.log(index);
-       let flag = true;
-        if(flag === true){
-            console.log(index, 'Hello')
+function varVsLet(){
+    for(i = 0; i < 5; i++){
+        let condition = true
+        if(condition == true){
+            console.log('Hello world')
         }
-		console.log(flag);
-console.log(index);
     }
-
 }
 
-checker();
-
+varVsLet()
 
 
 

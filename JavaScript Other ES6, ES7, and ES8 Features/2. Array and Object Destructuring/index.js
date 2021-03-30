@@ -1,12 +1,7 @@
 
+let [one, two, three, four, five] = [1,2,3,4,5]
 
-
-// let arr = [3,5,6,7,4];
-
-
-let [one,two,c,d,e] = [3,5,6,7,4];
-
-console.log(one)
+console.log(four)
 
 
 
