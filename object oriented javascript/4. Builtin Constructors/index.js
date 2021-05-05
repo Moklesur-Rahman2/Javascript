@@ -1,28 +1,20 @@
 
+let Name = 'Moklesur'
+console.log(Name)
 
+let Name1 = new String('Moklesur')
+console.log(Name1)
 
-let day = 'saturday';
+let death = true;
+console.log(death)
 
-let day1 = new String('saturday');
+let death1 = new Boolean(true)
+console.log(death1)
 
-console.log(typeof day1)
-console.log(typeof day);
+let fn = (a,b) => {
+    return a + b
+}
+console.log(fn(3,3))
 
-
-let number = 445;
-
-let number1 = new Number(number);
-
-console.log(typeof number1)
-
-let isvalue = true;
-let isvalue1 = new Boolean(isvalue);
-
-let arr = [45544,45,86,6,9,4,];
-let arr1 = new Array(3,34,34,656)
-let fun = (a,n) => { return a + n}
-
-// let fun1 = new Function('a','n', 'return a + n');
-// console.log(fun1)
-
-
+let fn1 = new Function('a','b', 'return a + b ')
+console.log(fn1(5,5))

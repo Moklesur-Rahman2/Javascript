@@ -1,14 +1,15 @@
 
-// function user(name,age,hobby){
-//     let obj = {
-//         name,
-//         age,
-//         hobby,
-//     }
-//     return obj;
-// }
+function studentData(name, age, hobby, bloodGroup){
+    return{
+        name,
+        age,
+        hobby,
+        bloodGroup,
+        text(){
+            console.log(`Hello i am ${name}. I am ${age} years old. My hobby is ${hobby}. My blood group is ${bloodGroup}`)
+        }
+    }
+}
 
-// const rakib = user('rakib',34,'writing')
-// const sakib = user('sakib',50,'criket')
-
-// console.log(rakib)
+const student = studentData('Akib', 23, 'Reading', 'A+')
+console.log(student.text())
