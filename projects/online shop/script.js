@@ -39,19 +39,8 @@ for(let product of products){
     if(name.includes(keyword)){
         product.style.display = 'block';
     }else{
-        product.syle.display = 'none'
+        product.style.display = 'none';
     }
 }
 
 })
-
-
-// max = value <= rate
-// min
-
-
-
-
-
-
-
