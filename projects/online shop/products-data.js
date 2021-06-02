@@ -2,7 +2,8 @@ export const productsData = [
     {
         id: 1,
         productName: 'Juicy Couture Juicy Quilted',
-        productImage: 'images/product-1.jpg',
+        productImage: 'videos/video.mp4',
+        productVideo: '',
         productRate: 20
 
     },
